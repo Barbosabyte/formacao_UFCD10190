@@ -1,5 +1,3 @@
-# formacao_UFCD10190
-
 # UFCD 10790 – Projeto de Programação
 
 ## Título:
