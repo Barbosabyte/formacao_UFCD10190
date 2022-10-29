@@ -36,8 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.body {
+  padding: 92px 0;
+}
+.container {
+  background-color: rgba(23, 3, 26, 0.849);
+  color: #fff;
+  margin: auto;
+  width: 75%;
+}
 
-.meuEstilo {
-  color: aqua;
-  background-color: coral;
+.container h1 {
+  padding-top: 38px;
+  text-align: center;
 }

@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Form.css";
 function Form() {
   return (
     <>
@@ -23,7 +23,7 @@ function Form() {
         <label className="hora">
           Hora pretendida:{" "}
           <select>
-            <option disabled selected value="">
+            <option disabled defaultValue="">
               Escolha a hora
             </option>
             <option value="08:00">08:00</option>
@@ -45,7 +45,7 @@ function Form() {
         <label className="terapia">
           Terapia pretendida:{" "}
           <select>
-            <option disabled selected value="">
+            <option disabled defaultValue="">
               Escolha a terapia
             </option>
             <option value="relaxante">Massagem Relaxante</option>
