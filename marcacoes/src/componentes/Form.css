@@ -1,3 +1,43 @@
+.formBody {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 form {
-  padding: 0 38px 38px;
+  padding: 38px;
+  width: 50%;
+}
+
+label {
+  display: block;
+  margin-bottom: 1em;
+}
+input,
+select {
+  width: 100%;
+}
+.enviar {
+  text-align: center;
+}
+
+.btn {
+  padding: 6px 12px 7px 12px;
+  background: #be3d91;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  border: 0;
+  margin: auto;
+  width: max-content;
+}
+
+.btn:hover {
+  box-shadow: 3px 3px 20px gray inset;
+}
+
+.btn:active {
+  background: rgba(23, 3, 26, 0.849);
+  box-shadow: 3px 3px 20px gray inset;
 }
