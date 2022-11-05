@@ -1,6 +1,9 @@
-.empresa {
+header {
+  display: flex;
   background-color: rgba(23, 3, 26, 0.849);
   color: #fff;
-  font-size: 18px;
+  justify-content: space-between;
   padding: 6px 2% 11px;
+  align-items: center;
+  font-size: 18px;
 }

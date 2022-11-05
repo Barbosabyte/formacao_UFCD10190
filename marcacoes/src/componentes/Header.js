@@ -9,6 +9,7 @@ function Header() {
         <div className="empresa">
           <img alt="Ana Saiago Massagens" src={logo} />
         </div>
+        <nav>Lorem Ipsum</nav>
       </header>
     </>
   );
