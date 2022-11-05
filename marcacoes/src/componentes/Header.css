@@ -7,3 +7,8 @@ header {
   align-items: center;
   font-size: 18px;
 }
+
+nav {
+  display: flex;
+  gap: 10px;
+}

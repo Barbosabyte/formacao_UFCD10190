@@ -45,5 +45,5 @@ select {
 
 .btn:active {
   background: rgba(23, 3, 26, 0.849);
-  box-shadow: 3px 3px 20px gray inset;
+  box-shadow: none;
 }

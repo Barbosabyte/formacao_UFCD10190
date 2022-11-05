@@ -9,7 +9,14 @@ function Header() {
         <div className="empresa">
           <img alt="Ana Saiago Massagens" src={logo} />
         </div>
-        <nav>Lorem Ipsum</nav>
+        <nav>
+          <button className="btn">Registar</button>
+          <button className="btn">Marcar</button>
+          <button className="btn">Desmarcar</button>
+          <button className="btn">Consultar</button>
+          <button className="btn">Login</button>
+          <button className="btn">Sair</button>
+        </nav>
       </header>
     </>
   );
