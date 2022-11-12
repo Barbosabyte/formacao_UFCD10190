@@ -50,3 +50,24 @@
   padding-top: 38px;
   text-align: center;
 }
+.formBody {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  display: flex;
+  background-color: rgba(23, 3, 26, 0.849);
+  color: #fff;
+  justify-content: space-between;
+  padding: 6px 2% 11px;
+  align-items: center;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
